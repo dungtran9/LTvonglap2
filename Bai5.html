@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tienvon =+prompt("nhap gia tri tien von");
+    let laisuat =+prompt("nhap gia tri lai suat theo thang ");
+    let n =+prompt("nhap so thang can tinh lai suat");
+    let x=1;
+    for (i=1;i<=n;i++){
+        x *= (1+laisuat);
+    }
+    result=x*tienvon;
+    alert("so tien phai tra la "+result);
+    result.toFixed(2)
+</script>
+
+</body>
+</html>
